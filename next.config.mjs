@@ -40,7 +40,15 @@ const nextConfig = {
 
     // Modify the file loader rule to ignore *.svg, since we have it handled now.
     fileLoaderRule.exclude = /\.svg$/i;
-
+     // Serve files from src/assets during build and runtime
+     config.module.rules.push({
+      test: /\.(png|jpe?g|gif|webp|avif|ico|ttf|woff|woff2|eot|otf)$/i,
+      include: path.resolve(__dirname, 'src/assets'),
+      type: 'asset/resource',
+      generator: {
+        filename: 'static/assets/[hash][ext]',
+      },
+    });
     return config;
   },
 };
