@@ -1,6 +1,6 @@
 import portfolioImage from "@/assets/images/portfolio.png";
 import TheHyruleCastle from "@/assets/images/TheHyruleCastle.png";
-import MarioKart from "@/assets/images/mariokart.png";
+import MarioKart from "@/assets/images/Mariokart.png";
 import Image from "next/image";
 import CheckcircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
