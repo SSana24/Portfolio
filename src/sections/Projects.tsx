@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import portfolioImage from "@/assets/images/portfolio.png";
 import TheHyruleCastle from "@/assets/images/TheHyruleCastle.png";
-import MarioKart from "@/assets/images/Mariokart.png";
+import MarioKart from "@/assets/images/mariokart.png";
 import Image from "next/image";
 import CheckcircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -16,8 +16,8 @@ const portfolioProjects = [
       { title: "Tailwind's utility-first approach" },
       { title: "Framer Motion & CSS Animations" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://github.com/SSana24/Portfolio",
+    image: portfolioImage,
   },
   {
     company: "ETNA",
@@ -28,7 +28,7 @@ const portfolioProjects = [
       { title: "Adding different game mods and diffuculties" },
       { title: "Deploy the game as Docker image" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://github.com/SSana24/Hyrule_Castle",
     image: TheHyruleCastle,
   },
   {
@@ -40,7 +40,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://github.com/SSana24/Mario_Kart",
     image: MarioKart,
   },
 ];

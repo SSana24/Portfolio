@@ -3,11 +3,11 @@ import ArrowUpRight from "../assets/icons/arrow-up-right.svg";
 const footerlinks = [
   {
     title: "LinkedIn",
-    href: "https://www.linkedin.com/in/your-linkedin",
+    href: "https://www.linkedin.com/in/sana-saidi-93437518b/",
   },
   {
     title: "GitHub",
-    href: "#",
+    href: "https://github.com/SSana24",
   }
 
 ];
