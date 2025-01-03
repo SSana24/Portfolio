@@ -1,6 +1,5 @@
 import { SectionHeader } from '../components/SectionHeader';
 import { Card } from '../components/Card';
-import StarIcon from '../assets/icons/star.svg';
 import JavaScriptIcon from '../assets/icons/square-js.svg';
 import TypeScriptIcon from '../assets/icons/typescript.svg';
 import HTMLIcon from '../assets/icons/html5.svg';
@@ -14,9 +13,6 @@ import NodeIcon from '../assets/icons/node.svg';
 import PythonIcon from '../assets/icons/python.svg';
 import DockerIcon from '../assets/icons/docker.svg';
 import BashIcon from '../assets/icons/bash.svg';
-
-import mapImage from '../assets/images/map.png';
-import location from '../assets/images/location.png';
 import  Image from 'next/image';
 import { CardHeader } from '@/components/cardHeader';
 import { ToolboxItems } from '@/components/ToolboxItems';
@@ -156,9 +152,9 @@ export const AboutSection = () => {
             </div>
         </Card>
         <Card className="h-[320px] p-0 relative md:col-span-2" >
-          <Image src={mapImage} alt="Map" className="h-full, w-full, object-cover object-left-top" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full">
-          <Image src={location} alt="Location" className="size-20" />
+          <Image src="/images/map.png" alt="Map" className="h-full, w-full, object-cover object-left-top" width={300} height={320} />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full" >
+          <Image src="/images/location.png" alt="Location" className="size-20"  width={20} height={20} />
           </div>
         </Card>
         </div>

@@ -1,6 +1,3 @@
-import portfolioImage from "@/assets/images/portfolio.png";
-import TheHyruleCastle from "@/assets/images/TheHyruleCastle.png";
-import MarioKart from "@/assets/images/MarioKart.png";
 import Image from "next/image";
 import CheckcircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -17,7 +14,7 @@ const portfolioProjects = [
       { title: "Framer Motion & CSS Animations" },
     ],
     link: "https://github.com/SSana24/Portfolio",
-    image: portfolioImage,
+    image: "/images/portfolio.png",
   },
   {
     company: "ETNA",
@@ -29,7 +26,7 @@ const portfolioProjects = [
       { title: "Deploy the game as Docker image" },
     ],
     link: "https://github.com/SSana24/Hyrule_Castle",
-    image: TheHyruleCastle,
+    image: "/images/TheHyruleCastle.png",
   },
   {
     company: "ETNA",
@@ -41,7 +38,7 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "https://github.com/SSana24/Mario_Kart",
-    image: MarioKart,
+    image: "/images/MarioKart.png",
   },
 ];
 
@@ -89,7 +86,7 @@ export const ProjectsSection = () => {
             </a>
             </div>
             <div className="relative">
-            <Image src={project.image} alt={project.title} className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none" /> 
+            <Image src={project.image} alt={project.title}  className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none" width={500} height={500} /> 
             </div>
             </div>
             </Card>
