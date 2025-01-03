@@ -5,6 +5,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: [],  // Optional: Add domains for external images
+    unoptimized: true,  // Skip Next.js image optimization
+  },
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
