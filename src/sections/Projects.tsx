@@ -33,9 +33,9 @@ const portfolioProjects = [
     year: "October 2024",
     title: "Mario Kart",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Parsing a map and converting it into a graph" },
+      { title: "Transversing the graph using Lee's Algorithm" },
+      { title: "Displaying the result of the shortest path" },
     ],
     link: "https://github.com/SSana24/Mario_Kart",
     image: "/images/MarioKart.png",
